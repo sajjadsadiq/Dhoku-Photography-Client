@@ -1,0 +1,12 @@
+.workPhoto{
+    background-color: rgb(194, 192, 192);
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    border-radius: 8px;
+}
+.framePhoto img{
+    height: 120px;
+    width: 100px;
+    border-radius: 5px;
+}

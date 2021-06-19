@@ -1,0 +1,14 @@
+.logoSize{
+    font-size: 30px;
+}
+.logoColor{
+    color: #9d7245;
+    font-size: 25px;
+}
+.SearchIcon{
+    color: #9d7245;
+}
+.loginBtn a{
+    text-decoration: none;
+    color: white;
+}

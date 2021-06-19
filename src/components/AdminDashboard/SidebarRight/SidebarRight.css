@@ -1,0 +1,14 @@
+.SidebarRight{
+    background-color: silver;
+    height: 500px;
+    position: relative;
+}
+.sidebarRightContent{
+    background-color: white;
+    width: 94%;
+    position:absolute;
+    margin: 10px 20px;
+    border-radius: 10px;
+
+
+}

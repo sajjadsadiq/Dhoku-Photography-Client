@@ -1,0 +1,23 @@
+.loginBtn{
+    width: 50%;
+    margin: auto;
+}
+.SingInBtn{
+    text-decoration: none;
+    border: 1px solid silver;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    
+
+
+}
+.googleIcon{
+    height: 30px;
+    margin-right: 5px;
+}
+.loginImg{
+    height: 300px;
+    margin-top: 50px;
+}
