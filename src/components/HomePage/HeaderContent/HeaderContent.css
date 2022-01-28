@@ -1,5 +1,13 @@
+.bannerTitle{
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-bottom: 18px;
+}
 .headerContent{
-    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 .imgDhoku{
     height: 300px;

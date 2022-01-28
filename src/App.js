@@ -1,5 +1,4 @@
 import React, { createContext, useState } from "react";
-import './App.css'
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,6 +12,8 @@ import PrivateRoute from "./components/Login/PrivateRoute/PrivateRoute";
 import User from "./components/UserLimited/User/User";
 import OrderList from "./components/AdminDashboard/OrderList/OrderList";
 import MakeAdmin from "./components/AdminDashboard/MakeAdmin/MakeAdmin";
+import Navbar from "./components/Shared/Footer/Navbar/Navbar";
+import Footer from "./components/Shared/Footer/Footer";
 
 
 export const UserContext = createContext()
@@ -22,6 +23,7 @@ function App() {
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
     <Router>
+      <Navbar/>
       <Switch>
         <Route exact path="/">
           <Home />
@@ -48,6 +50,7 @@ function App() {
           <MakeAdmin/>
         </Route>
       </Switch>
+      <Footer/>
     </Router>
     </UserContext.Provider>
   );

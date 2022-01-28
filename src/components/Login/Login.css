@@ -1,3 +1,9 @@
+.footerContainer{
+    padding-bottom: 100px;
+}
+.LogingLogo{
+    height: 70px;
+}
 .loginBtn{
     width: 50%;
     margin: auto;

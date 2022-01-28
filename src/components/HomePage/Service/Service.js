@@ -13,10 +13,10 @@ const Service = () => {
         .then(data => setService(data))
     })
     return (
-        <section className="container">
+        <section className="container service-container">
             <div className="services justify-content-center">
-                <h6 className="d-flex justify-content-center text-danger">HEY THERE, OUR SERVICE!</h6>
-                <h2 className="d-flex justify-content-center">We will give a very special celebration for you</h2>
+                <h6 className="d-flex justify-content-center text-primary section__subtitle">HEY THERE, OUR SERVICE!</h6>
+                <h2 className="d-flex justify-content-center section__title">We will give a very special celebration for you</h2>
 
                 <div className="row">
                     {

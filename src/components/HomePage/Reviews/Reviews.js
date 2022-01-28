@@ -41,8 +41,8 @@ const Reviews = () => {
         <section className="reviews">
             <div className="container">
                 <div className="reviewsTitle mt-5">
-                    <h6 className="text-danger d-flex justify-content-center">Testimonials</h6>
-                    <h2 className="d-flex justify-content-center text-white">What peoples say</h2>
+                    <h5 className="text-primary d-flex justify-content-center section__subtitle ">Testimonials</h5>
+                    <h2 className="d-flex justify-content-center section__title">What peoples say</h2>
                 </div>
                 <div className="row">
                     {

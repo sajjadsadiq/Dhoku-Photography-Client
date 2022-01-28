@@ -1,5 +1,19 @@
+.reviewsBox{
+    border: 2px solid rgb(238, 237, 237);
+    padding: 25px;
+}
+.reviewsBox p{
+    color: black;
+}
 .profile{
+    font-size: 20px;
+}
+.profileName{
     display: flex;
     justify-content:content;
-    align-items: center;
+}
+.reviesDes{
+    margin-top: 5px;
+    color: rgb(70, 69, 69);
+    font-family: "Poppins", sans-serif;
 }

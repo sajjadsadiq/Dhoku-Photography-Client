@@ -13,14 +13,14 @@ import partyThree from '../../../images/PartyThree.jpg'
 const WorksPhoto = () => {
     return (
         <div className="mt-5">
-            <h5 className=" d-flex justify-content-center">CREATIVEWORKS</h5>
+            <h3 className=" d-flex justify-content-center">CREATIVEWORKS</h3>
             <div className="workNav mt-3 d-flex text-align-center justify-content-center">
                 <p className="ml-3 text-danger">All</p>
                 <p className="ml-3">Birthday</p>
                 <p className="ml-3">Weddings</p>
                 <p className="ml-3">Festival</p>
             </div>
-            <div className="workPhoto">
+            <div className="workPhoto mt-4">
                 <div className="container row p-5">
                     <div className="col-md-4 framePhoto Birthday">
                         <img className='imgSize mb-3 mt-3' src={birthdayOne} alt=""/>

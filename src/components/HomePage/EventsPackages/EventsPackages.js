@@ -37,9 +37,9 @@ const EventsPackages = () => {
     return (
         <section>
             <div className="eventpackges container">
-                <div className="packagesTitle mt-5">
-                    <h6 className="d-flex justify-content-center text-danger">Choose Your Time</h6>
-                    <h2 className="d-flex justify-content-center" >Our events packages</h2>
+                <div className="section__subtitle packagesTitle mt-5">
+                    <h6 className="d-flex justify-content-center text-primary">Choose Your Time</h6>
+                    <h2 className="d-flex justify-content-center section__title" >Our events packages</h2>
                 </div>
                 <div className="row">
                     {

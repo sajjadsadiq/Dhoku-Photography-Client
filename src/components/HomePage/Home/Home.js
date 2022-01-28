@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../Shared/Footer/Footer';
 import EventsPackages from '../EventsPackages/EventsPackages';
 import Header from '../Header/Header';
 import Reviews from '../Reviews/Reviews';
@@ -17,7 +16,6 @@ const Home = () => {
             <EventsPackages/>
             <photoWorks/>
             <Reviews/>
-            <Footer/>
       </div>      
     );
 };

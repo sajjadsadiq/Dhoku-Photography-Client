@@ -1,9 +1,7 @@
 .ServiceOther{
     height: 100%;
-    background-color: silver;
+    background-color: rgb(241, 241, 241);
     margin-top: 100px;
     padding: 30px;
-}
-.otherServiceContent{
-    margin-top: 10px;
+    padding-bottom: 20px;
 }

@@ -1,15 +1,18 @@
 import React from 'react';
-import CameraIcon from '@material-ui/icons/Camera';
 import CallIcon from '@material-ui/icons/Call';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import Logo from './../../../images/Dhokh.png'
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer className="container">
+        <footer className="container footerContainer">
             <div class="row">
                 <div className="col-md-5  justify-content-center">
-                <h1 class="d-flex justify-content-center" href="#">< CameraIcon className="text-danger logoSize mt-3" /> Dho<label className="text-danger">KU</label></h1>
+                <div class="d-flex justify-content-center" href="#">
+                    <img className="footerLogo" src={Logo} alt="" />
+                </div>
                     <p class="d-flex justify-content-center">All Rights Reserved 2021 &copy;<b> Sajjad Sadiq</b></p>
                 </div>
                 <div className="col-md-2">

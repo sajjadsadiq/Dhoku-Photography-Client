@@ -1,20 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './ServiceDataShow.css'
+import './ServiceDataShow.css';
 
 const ServiceDataShow = ({ event }) => {
-    return (
-        <div className="col-md-3 mt-5">
-            <div className="servicesCol">
-                <img className="servicesImg" src={event.img} alt="" />
-                <h5 className="text-danger">{event.title}</h5>
-                <small className="text-secondary mt-2">{event.description}</small> <br />
-                <Link to="/dashboard">
-                    <button className="btn btn-danger mt-2">{event.btn}</button>
-                </Link>
+  return (
+    <section className="section">
+      <div className="serviceContainer">
+        <div className="serviceBox">
+          <img className="servicesImg" src={event.img} alt="" />
+          <div className="service-text text-center mt-3">
+            <h3 className="text-primary">{event.title}</h3>
+            <small className="text-secondary">{event.description}</small>
+          </div>
+          <br />
+          <Link to="/dashboard">
+            <div className='text-center mb-3'>
+              <button className="btn btn-primary">
+                {event.btn}
+              </button>
             </div>
+          </Link>
         </div>
-    );
+      </div>
+    </section>
+  );
 };
 
 export default ServiceDataShow;

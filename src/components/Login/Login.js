@@ -1,4 +1,4 @@
-import CameraIcon from '@material-ui/icons/Camera';
+import Logo from './../../images/Dhokh.png'
 import './Login.css'
 import google from '../../images/icons/google.png'
 import login from '../../images/login.svg'
@@ -6,7 +6,6 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 import firebaseConfig from './firebase.config';
-import Navbar from '../Shared/Footer/Navbar/Navbar';
 import { useContext } from 'react';
 import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router';
@@ -34,13 +33,14 @@ const Login = () => {
         console.log("click Sing In Button");
     }
     return (       
-        <section className='container'>
-            <Navbar/>
+        <section className='container footerContainer'>
             <div class="row">
                 <div className="col-md-6">
                     <div className="login">
                         <div className="logo mt-5">
-                            <h1 class="d-flex justify-content-center" href="#">< CameraIcon className="text-primary logoSize mt-3" /> Dho<label className="text-primary">KU</label></h1>
+                            <h1 class="d-flex justify-content-center" href="#">
+                                <img className='LogingLogo' src={Logo} alt="" />
+                            </h1>
                         </div>
                         <h5 class="d-flex justify-content-center mt-5"><b>Login With</b></h5>
                         <div className="loginBtn mt-3">
